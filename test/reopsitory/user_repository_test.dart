@@ -1,13 +1,13 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/user_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/model/user_model.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/user_repository_impl.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/datasource/user_datasource.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/model/user_model.dart';
+import 'package:flutter_simple_chat_example/data/repository/user_repository_impl.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
 
 // mock 클래스 생성
 class MockUserDataSource extends Mock implements UserDataSource {}

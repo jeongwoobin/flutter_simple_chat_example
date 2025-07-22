@@ -1,6 +1,6 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/message_repository.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/repository/message_repository.dart';
 
 class GetMessageUseCase {
   GetMessageUseCase({required MessageRepository repository})

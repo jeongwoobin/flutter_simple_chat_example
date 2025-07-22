@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/retry_when.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/utils/retry_when.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 
 void main() {
   group('RetryFuture.retryWhen', () {

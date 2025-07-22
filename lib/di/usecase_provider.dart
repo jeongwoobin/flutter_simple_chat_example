@@ -1,13 +1,13 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_room_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_user_usecase.dart';
-import 'package:mobile1_flutter_coding_test/di/repository_provider.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/insert_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_message_by_room_id_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_room_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_user_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_room_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_user_usecase.dart';
+import 'package:flutter_simple_chat_example/di/repository_provider.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/insert_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_message_by_room_id_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_room_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_user_usecase.dart';
 
 final getMessageUseCaseProvider = Provider<GetMessageUseCase>((ref) =>
     GetMessageUseCase(repository: ref.read(messageRepositoryProvider)));

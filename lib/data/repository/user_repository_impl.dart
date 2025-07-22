@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/user_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/mapper/user_mapper.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/safe_call.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/user_repository.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/data/datasource/user_datasource.dart';
+import 'package:flutter_simple_chat_example/data/mapper/user_mapper.dart';
+import 'package:flutter_simple_chat_example/data/utils/safe_call.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/domain/repository/user_repository.dart';
 
 class UserRepositoryImpl implements UserRepository {
   UserRepositoryImpl(

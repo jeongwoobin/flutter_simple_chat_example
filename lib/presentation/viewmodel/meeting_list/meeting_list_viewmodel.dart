@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_room_usecase.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/toast_service.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/base_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/loading_manager.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/meeting_list/meeting_list_state.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_room_usecase.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/toast_service.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/base_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/loading_manager.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/meeting_list/meeting_list_state.dart';
 
 class MeetingListViewModel extends BaseViewModel<MeetingListState> {
   final SelectRoomUseCase _selectRoomUseCase;

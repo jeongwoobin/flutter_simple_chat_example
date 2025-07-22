@@ -1,5 +1,5 @@
-import 'package:mobile1_flutter_coding_test/data/database/local_database.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/id_generator.dart';
+import 'package:flutter_simple_chat_example/data/database/local_database.dart';
+import 'package:flutter_simple_chat_example/data/utils/id_generator.dart';
 import 'package:sqflite/sqflite.dart';
 
 class IdGeneratorImpl implements IdGenerator {

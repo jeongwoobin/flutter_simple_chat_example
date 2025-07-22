@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/data/database/local_database.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/mapper/room_mapper.dart';
-import 'package:mobile1_flutter_coding_test/data/model/message_model.dart';
-import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/data/model/user_model.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/id_generator.dart';
+import 'package:flutter_simple_chat_example/data/database/local_database.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/data/mapper/room_mapper.dart';
+import 'package:flutter_simple_chat_example/data/model/message_model.dart';
+import 'package:flutter_simple_chat_example/data/model/room_model.dart';
+import 'package:flutter_simple_chat_example/data/model/user_model.dart';
+import 'package:flutter_simple_chat_example/data/utils/id_generator.dart';
 import 'package:sqflite/sqflite.dart';
 
 class LocalDatabaseDataSourceImpl implements LocalDatabaseDataSource {

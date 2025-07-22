@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
 
 class Utils {
   factory Utils() => _instance;

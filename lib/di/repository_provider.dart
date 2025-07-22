@@ -1,11 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/message_repository_impl.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/room_repository_impl.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/user_repository_impl.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/message_repository.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/room_repository.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/user_repository.dart';
-import 'package:mobile1_flutter_coding_test/di/datasource_provider.dart';
+import 'package:flutter_simple_chat_example/data/repository/message_repository_impl.dart';
+import 'package:flutter_simple_chat_example/data/repository/room_repository_impl.dart';
+import 'package:flutter_simple_chat_example/data/repository/user_repository_impl.dart';
+import 'package:flutter_simple_chat_example/domain/repository/message_repository.dart';
+import 'package:flutter_simple_chat_example/domain/repository/room_repository.dart';
+import 'package:flutter_simple_chat_example/domain/repository/user_repository.dart';
+import 'package:flutter_simple_chat_example/di/datasource_provider.dart';
 
 final messageRepositoryProvider = Provider<MessageRepository>((ref) =>
     MessageRepositoryImpl(

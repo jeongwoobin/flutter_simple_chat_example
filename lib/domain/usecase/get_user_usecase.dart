@@ -1,6 +1,6 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/user_repository.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/domain/repository/user_repository.dart';
 
 class GetUserUseCase {
   GetUserUseCase({required UserRepository repository})

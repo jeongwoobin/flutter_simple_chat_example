@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:mobile1_flutter_coding_test/di/viewmodel_provider.dart';
-import 'package:mobile1_flutter_coding_test/presentation/screen/meeting_list/meeting_list_screen.dart';
-import 'package:mobile1_flutter_coding_test/presentation/screen/user_list/user_list_screen.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/home/home_state.dart';
+import 'package:flutter_simple_chat_example/di/viewmodel_provider.dart';
+import 'package:flutter_simple_chat_example/presentation/screen/meeting_list/meeting_list_screen.dart';
+import 'package:flutter_simple_chat_example/presentation/screen/user_list/user_list_screen.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/home/home_state.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});

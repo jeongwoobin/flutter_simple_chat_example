@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/room_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/mapper/room_mapper.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/safe_call.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/room_repository.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/data/datasource/room_datasource.dart';
+import 'package:flutter_simple_chat_example/data/mapper/room_mapper.dart';
+import 'package:flutter_simple_chat_example/data/utils/safe_call.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/domain/repository/room_repository.dart';
 
 class RoomRepositoryImpl implements RoomRepository {
   RoomRepositoryImpl(

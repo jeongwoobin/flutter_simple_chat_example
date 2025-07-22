@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_user_usecase.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/toast_service.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/base_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/loading_manager.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/user_list/user_list_state.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_user_usecase.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/toast_service.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/base_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/loading_manager.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/user_list/user_list_state.dart';
 
 class UserListViewModel extends BaseViewModel<UserListState> {
   final SelectUserUseCase _selectUserUseCase;

@@ -1,6 +1,6 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/room_repository.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/domain/repository/room_repository.dart';
 
 class GetRoomUseCase {
   GetRoomUseCase({required RoomRepository repository})

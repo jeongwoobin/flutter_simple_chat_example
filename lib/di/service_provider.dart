@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/data/database/local_database.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/dio_client.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/dio_client_impl.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/id_generator.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/id_generator_impl.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/loading_manager.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/toast_service.dart';
+import 'package:flutter_simple_chat_example/data/database/local_database.dart';
+import 'package:flutter_simple_chat_example/data/remote/dio_client.dart';
+import 'package:flutter_simple_chat_example/data/remote/dio_client_impl.dart';
+import 'package:flutter_simple_chat_example/data/remote/api_service.dart';
+import 'package:flutter_simple_chat_example/data/utils/id_generator.dart';
+import 'package:flutter_simple_chat_example/data/utils/id_generator_impl.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/loading_manager.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/toast_service.dart';
 
 final idGeneratorProvider = Provider<IdGenerator>(
     (ref) => IdGeneratorImpl(database: ref.watch(localDatabaseProvider)));

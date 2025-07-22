@@ -1,14 +1,14 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/di/service_provider.dart';
-import 'package:mobile1_flutter_coding_test/di/usecase_provider.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/chat/chat_state.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/chat/chat_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/home/home_state.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/home/home_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/meeting_list/meeting_list_state.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/meeting_list/meeting_list_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/user_list/user_list_state.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/user_list/user_list_viewmodel.dart';
+import 'package:flutter_simple_chat_example/di/service_provider.dart';
+import 'package:flutter_simple_chat_example/di/usecase_provider.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/chat/chat_state.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/chat/chat_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/home/home_state.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/home/home_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/meeting_list/meeting_list_state.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/meeting_list/meeting_list_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/user_list/user_list_state.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/user_list/user_list_viewmodel.dart';
 
 final homeViewModelProvider =
     StateNotifierProvider<HomeViewmodel, HomeState>((ref) {

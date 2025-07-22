@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/room_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/datasource/room_datasource.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/remote/api_service.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 
 class RoomDataSourceImpl implements RoomDataSource {
   RoomDataSourceImpl({required ApiService service}) : _service = service;

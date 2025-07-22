@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/di/service_provider.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/di/service_provider.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
 
 abstract class LoadingManager {
   bool get isLoading;

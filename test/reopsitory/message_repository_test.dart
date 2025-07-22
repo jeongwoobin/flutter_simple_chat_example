@@ -1,14 +1,14 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/model/room_model.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/message_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/model/message_model.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/message_repository_impl.dart';
+import 'package:flutter_simple_chat_example/data/datasource/message_datasource.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/data/model/message_model.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/data/repository/message_repository_impl.dart';
 
 // mock 클래스 생성
 class MockMessageDataSource extends Mock implements MessageDataSource {}

@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:mobile1_flutter_coding_test/data/utils/retry_when.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/my_error.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/data/utils/retry_when.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/domain/entity/my_error.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
 
 /// Error Handling Method
 /// 정상동작 시 returnType: Result.success

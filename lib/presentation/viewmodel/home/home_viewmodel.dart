@@ -1,16 +1,16 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_room_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/get_user_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_room_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_user_usecase.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/toast_service.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/base_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/home/home_state.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_room_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/get_user_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_room_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_user_usecase.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/toast_service.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/base_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/home/home_state.dart';
 
 class HomeViewmodel extends BaseViewModel<HomeState> {
   final GetMessageUseCase _getMessageUseCase;

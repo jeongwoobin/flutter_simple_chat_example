@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/my_error.dart';
+import 'package:flutter_simple_chat_example/domain/entity/my_error.dart';
 
 part 'result.freezed.dart';
 

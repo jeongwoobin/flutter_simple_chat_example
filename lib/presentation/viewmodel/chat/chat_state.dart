@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
 
 part 'chat_state.freezed.dart';
 

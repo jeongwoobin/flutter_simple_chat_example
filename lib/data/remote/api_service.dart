@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/api_config.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/utils/api_config.dart';
 import 'package:retrofit/retrofit.dart';
 
 part 'api_service.g.dart';

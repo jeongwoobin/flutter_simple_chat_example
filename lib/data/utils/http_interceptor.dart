@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
 
 class LoggingInterceptor extends Interceptor {
   LoggingInterceptor();

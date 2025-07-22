@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:mobile1_flutter_coding_test/di/viewmodel_provider.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/di/viewmodel_provider.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
 
 class ChatScreen extends ConsumerStatefulWidget {
   const ChatScreen({super.key, required ChatRoom room}) : _room = room;

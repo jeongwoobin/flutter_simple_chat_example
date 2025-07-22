@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/di/service_provider.dart';
-import 'package:mobile1_flutter_coding_test/presentation/screen/home/home_screen.dart';
+import 'package:flutter_simple_chat_example/di/service_provider.dart';
+import 'package:flutter_simple_chat_example/presentation/screen/home/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

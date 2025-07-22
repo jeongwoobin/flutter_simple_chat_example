@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/data/model/room_model.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
 
 extension ChatRoomModelToEntityExtension on ChatRoomModel {
   ChatRoom toEntity() => ChatRoom(

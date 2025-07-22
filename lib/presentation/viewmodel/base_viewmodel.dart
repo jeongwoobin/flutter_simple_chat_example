@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/my_error.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/entity/my_error.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
 
 abstract class BaseViewModel<T> extends StateNotifier<T> {
   BaseViewModel(super.state);

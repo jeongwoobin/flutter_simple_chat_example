@@ -1,12 +1,12 @@
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/insert_message_usecase.dart';
-import 'package:mobile1_flutter_coding_test/domain/usecase/select_message_by_room_id_usecase.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/my_logger.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/toast_service.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/utils.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/base_viewmodel.dart';
-import 'package:mobile1_flutter_coding_test/presentation/viewmodel/chat/chat_state.dart';
-import 'package:mobile1_flutter_coding_test/presentation/utils/loading_manager.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/insert_message_usecase.dart';
+import 'package:flutter_simple_chat_example/domain/usecase/select_message_by_room_id_usecase.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/my_logger.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/toast_service.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/utils.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/base_viewmodel.dart';
+import 'package:flutter_simple_chat_example/presentation/viewmodel/chat/chat_state.dart';
+import 'package:flutter_simple_chat_example/presentation/utils/loading_manager.dart';
 
 class ChatViewModel extends BaseViewModel<ChatState> {
   final InsertMessageUseCase _insertMessageUseCase;

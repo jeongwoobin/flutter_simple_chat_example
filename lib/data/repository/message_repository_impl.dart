@@ -1,10 +1,10 @@
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/message_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/mapper/message_mapper.dart';
-import 'package:mobile1_flutter_coding_test/data/utils/safe_call.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/message.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
-import 'package:mobile1_flutter_coding_test/domain/repository/message_repository.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/data/datasource/message_datasource.dart';
+import 'package:flutter_simple_chat_example/data/mapper/message_mapper.dart';
+import 'package:flutter_simple_chat_example/data/utils/safe_call.dart';
+import 'package:flutter_simple_chat_example/domain/entity/message.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/domain/repository/message_repository.dart';
 
 class MessageRepositoryImpl implements MessageRepository {
   MessageRepositoryImpl(

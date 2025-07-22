@@ -1,13 +1,13 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/room_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/data/repository/room_repository_impl.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/room.dart';
+import 'package:flutter_simple_chat_example/data/datasource/room_datasource.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/model/room_model.dart';
+import 'package:flutter_simple_chat_example/data/repository/room_repository_impl.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/domain/entity/room.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/local_database_datasource.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/result.dart';
+import 'package:flutter_simple_chat_example/data/datasource/local_database_datasource.dart';
+import 'package:flutter_simple_chat_example/domain/entity/result.dart';
 
 // mock 클래스 생성
 class MockRoomDataSource extends Mock implements RoomDataSource {}

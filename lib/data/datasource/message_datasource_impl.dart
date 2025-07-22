@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/message_datasource.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/datasource/message_datasource.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/data/remote/api_service.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 
 class MessageDataSourceImpl implements MessageDataSource {
   MessageDataSourceImpl({required ApiService service}) : _service = service;

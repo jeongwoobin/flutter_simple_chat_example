@@ -1,5 +1,5 @@
-import 'package:mobile1_flutter_coding_test/data/model/user_model.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/user.dart';
+import 'package:flutter_simple_chat_example/data/model/user_model.dart';
+import 'package:flutter_simple_chat_example/domain/entity/user.dart';
 
 extension UserModelToEntityExtension on UserModel {
   User toEntity() => User(

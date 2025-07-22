@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 
 class ErrorHandlingInterceptor extends Interceptor {
   @override

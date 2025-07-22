@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
+import 'package:flutter_simple_chat_example/data/model/room_model.dart';
+import 'package:flutter_simple_chat_example/data/remote/api_service.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:mobile1_flutter_coding_test/data/datasource/room_datasource_impl.dart';
-import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
+import 'package:flutter_simple_chat_example/data/datasource/room_datasource_impl.dart';
+import 'package:flutter_simple_chat_example/data/model/response.dart';
+import 'package:flutter_simple_chat_example/domain/entity/exception.dart';
 
 // mock 클래스 생성
 class MockApiService extends Mock implements ApiService {}
