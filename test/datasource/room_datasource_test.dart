@@ -1,24 +1,24 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mobile1_flutter_coding_test/data/model/room_model.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/rsupport_api_service.dart';
+import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:mobile1_flutter_coding_test/data/datasource/room_datasource_impl.dart';
 import 'package:mobile1_flutter_coding_test/data/model/response.dart';
 import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
 
 // mock 클래스 생성
-class MockRSupportApiService extends Mock implements RSupportApiService {}
+class MockApiService extends Mock implements ApiService {}
 
 void main() {
-  late MockRSupportApiService mockRSupportApiService;
+  late MockApiService mockApiService;
   late RoomDataSourceImpl dataSource;
 
   setUp(() {
-    mockRSupportApiService = MockRSupportApiService();
-    dataSource = RoomDataSourceImpl(service: mockRSupportApiService);
+    mockApiService = MockApiService();
+    dataSource = RoomDataSourceImpl(service: mockApiService);
   });
 
-  test('getRooms returns RoomResponse when API loads successfully', () async {
+  test('getRooms 테스트', () async {
     // given
 
     final fakeResponse = ChatRoomResponse(chatRooms: [
@@ -46,8 +46,7 @@ void main() {
           thumbnailImage: 'url')
     ]);
 
-    when(() => mockRSupportApiService.getRooms())
-        .thenAnswer((_) async => fakeResponse);
+    when(() => mockApiService.getRooms()).thenAnswer((_) async => fakeResponse);
 
     // when
     final result = await dataSource.getRooms();
@@ -58,9 +57,9 @@ void main() {
     expect(result.chatRooms.first.roomId, 'room1');
   });
 
-  test('getRooms rethrows UnKnownException on loading error', () async {
+  test('getRooms 에러 테스트', () async {
     // given
-    when(() => mockRSupportApiService.getRooms())
+    when(() => mockApiService.getRooms())
         .thenThrow(const UnKnownException('Failed to load JSON'));
 
     // then

@@ -1,25 +1,24 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mobile1_flutter_coding_test/data/model/message_model.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/rsupport_api_service.dart';
+import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:mobile1_flutter_coding_test/data/datasource/message_datasource_impl.dart';
 import 'package:mobile1_flutter_coding_test/data/model/response.dart';
 import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
 
 // mock 클래스 생성
-class MockRSupportApiService extends Mock implements RSupportApiService {}
+class MockApiService extends Mock implements ApiService {}
 
 void main() {
-  late MockRSupportApiService mockRSupportApiService;
+  late MockApiService mockApiService;
   late MessageDataSourceImpl dataSource;
 
   setUp(() {
-    mockRSupportApiService = MockRSupportApiService();
-    dataSource = MessageDataSourceImpl(service: mockRSupportApiService);
+    mockApiService = MockApiService();
+    dataSource = MessageDataSourceImpl(service: mockApiService);
   });
 
-  test('getMessages returns MessageResponse when API loads successfully',
-      () async {
+  test('getMessages 테스트', () async {
     // given
     final fakeResponse = MessageResponse(messages: [
       MessageModel(
@@ -38,7 +37,7 @@ void main() {
       )
     ]);
 
-    when(() => mockRSupportApiService.getMessages())
+    when(() => mockApiService.getMessages())
         .thenAnswer((_) async => fakeResponse);
 
     // when
@@ -50,9 +49,9 @@ void main() {
     expect(result.messages.first.messageId, 'msg1');
   });
 
-  test('getMessages rethrows NetworkException on loading error', () async {
+  test('getMessages 에러 테스트', () async {
     // given
-    when(() => mockRSupportApiService.getMessages())
+    when(() => mockApiService.getMessages())
         .thenThrow(const NetworkException());
 
     // then

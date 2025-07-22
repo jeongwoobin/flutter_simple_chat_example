@@ -1,13 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:mobile1_flutter_coding_test/data/datasource/user_datasource.dart';
 import 'package:mobile1_flutter_coding_test/data/model/response.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/rsupport_api_service.dart';
+import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
 import 'package:mobile1_flutter_coding_test/domain/entity/exception.dart';
 
 class UserDataSourceImpl implements UserDataSource {
-  UserDataSourceImpl({required RSupportApiService service})
-      : _service = service;
-  final RSupportApiService _service;
+  UserDataSourceImpl({required ApiService service}) : _service = service;
+  final ApiService _service;
 
   @override
   Future<UserResponse> getUsers() async {

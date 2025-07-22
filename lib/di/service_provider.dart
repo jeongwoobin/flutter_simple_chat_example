@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mobile1_flutter_coding_test/data/database/local_database.dart';
 import 'package:mobile1_flutter_coding_test/data/remote/dio_client.dart';
 import 'package:mobile1_flutter_coding_test/data/remote/dio_client_impl.dart';
-import 'package:mobile1_flutter_coding_test/data/remote/rsupport_api_service.dart';
+import 'package:mobile1_flutter_coding_test/data/remote/api_service.dart';
 import 'package:mobile1_flutter_coding_test/data/utils/id_generator.dart';
 import 'package:mobile1_flutter_coding_test/data/utils/id_generator_impl.dart';
 import 'package:mobile1_flutter_coding_test/presentation/utils/loading_manager.dart';
@@ -34,7 +34,7 @@ final dioProvider = Provider<Dio>((ref) {
   return dioClient.create();
 });
 
-final rsupportApiServiceProvider = Provider<RSupportApiService>((ref) {
+final apiServiceProvider = Provider<ApiService>((ref) {
   final dio = ref.watch(dioProvider);
-  return RSupportApiService(dio);
+  return ApiService(dio);
 });
