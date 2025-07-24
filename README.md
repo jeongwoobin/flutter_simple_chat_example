@@ -31,3 +31,11 @@
 - 채팅방에서 채팅 전송 시 messageId는 IdGenerator를 이용하여 DB에 저장된 마지막 messageId + 1로 저장
 
 
+## 📷 스크린샷
+
+<p align="center">  
+  <img src="screenshot/Screenshot_SimpleChatExample_Home.jpg" align="center" width="24%">
+  <img src="screenshot/Screenshot_SimpleChatExample_UserDetail.jpg" align="center" width="24%">
+  <img src="screenshot/Screenshot_SimpleChatExample_ChatList.jpg" align="center" width="24%">
+  <img src="screenshot/Screenshot_SimpleChatExample_ChatRoom.jpg" align="center" width="24%">
+</p>  
